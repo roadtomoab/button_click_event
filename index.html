@@ -3,6 +3,36 @@
     <head>
         <title>Button Click!</title>
 
+        <style>
+            body {
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            
+            button {
+                font-family: "Helvetica Neue", Arial, sans-serif;
+                font-size: 36px;
+                font-weight: 200;
+                color: whitesmoke;
+                background-color: black;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+                border-radius: 18px;
+            }
+            
+            button:hover {
+                background-color: whitesmoke;
+                color: black;
+                border-radius: 18px;
+            }
+        </style>
+
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
